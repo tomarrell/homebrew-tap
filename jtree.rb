@@ -1,28 +1,28 @@
 class Jtree < Formula
   desc "Display Jaeger traces as a hierarchical tree in your terminal"
   homepage "https://github.com/tomarrell/jtree"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/tomarrell/jtree/releases/download/v0.1.0/jtree_0.1.0_darwin_amd64.tar.gz"
-      sha256 "3f8155b489c00db20abcdccfc143524b56731c76e1b5b31b55285bc8d62737f6"
+      url "https://github.com/tomarrell/jtree/releases/download/v0.1.1/jtree_0.1.1_darwin_amd64.tar.gz"
+      sha256 "61c6bd45868dd3f5848f1c7b3632cbcdf36770293ecd82c7c81b354fe7ddc845"
     end
     on_arm do
-      url "https://github.com/tomarrell/jtree/releases/download/v0.1.0/jtree_0.1.0_darwin_arm64.tar.gz"
-      sha256 "8415e6701d9c62b9f9fd25c1ad2b2fd79ba56a78d82dcf318b5a0061570b2c6b"
+      url "https://github.com/tomarrell/jtree/releases/download/v0.1.1/jtree_0.1.1_darwin_arm64.tar.gz"
+      sha256 "f1a7df11854d9c478bc575c87885d6dcf0105fe266081c8325b019818cc6de2a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/tomarrell/jtree/releases/download/v0.1.0/jtree_0.1.0_linux_amd64.tar.gz"
-      sha256 "6fd14f091db68c09786585e987e99523eb07c353f67d2cf1c46cefc1d7210fc3"
+      url "https://github.com/tomarrell/jtree/releases/download/v0.1.1/jtree_0.1.1_linux_amd64.tar.gz"
+      sha256 "0f12b891b09c12d416702fc4f615cbe677a190a03018d4a85c1aa51d73086aa3"
     end
     on_arm do
-      url "https://github.com/tomarrell/jtree/releases/download/v0.1.0/jtree_0.1.0_linux_arm64.tar.gz"
-      sha256 "c46a6f466efa6f29cd2cd3f996784e0e5990227ea192c0492410a07f562eeb24"
+      url "https://github.com/tomarrell/jtree/releases/download/v0.1.1/jtree_0.1.1_linux_arm64.tar.gz"
+      sha256 "8db9fc5a28f405b9731417fb4e697acfddf5e965bc476868ad4fe0679477a973"
     end
   end
 
